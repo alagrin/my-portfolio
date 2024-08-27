@@ -4,7 +4,7 @@ import './globals.css';
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className='bg-gray-100'>
         <Navigation />
         <main>{children}</main>
       </body>
